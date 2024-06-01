@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="CSS/youtube.css">
+    <link rel="icon" type="image/youtube-icon" href="sidebar-pics/youtube-icon.png">
+    <style>
+        @media only screen and (min-width: 1228px) and (max-width: 1396px) {
+          .pic {
+            content: url(header-pics/account-logo.jpg);
+          }
+        }
+        @media (min-width: 1024px) and (max-width: 1227px) {
+          .pic {
+            content: url(header-pics/account-logo.jpg);
+          }
+        }
+        @media (min-width: 877px) and (max-width: 1023px) {
+          .pic {
+            content: url(header-pics/account-logo.jpg);
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="icon-of-menu">
+          <img class="hamburger-icon" src="header-pics/hamburger-icon.png">
+        </div>
+        <div class="youtube-logo">
+          <a href="https://www.youtube.com/">
+            <img class="light-youtube" src="header-pics/youtube-icon.png">
+            <div class="PK">
+              PK
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="middle-section">
+        <div class="place-of-search">
+          <input class="Search-place" type="text" placeholder="Search">
+        </div>
+        <div class="icon-of-search">
+          <div>
+            <img class="search-icon" src="header-pics/search-icon-png.webp">
+          </div>
+          <div class="text">
+            <p>Search</p>
+          </div>
+        </div>
+        <div style="margin-top: 4px;" class="icon-of-mic">
+          <div>
+            <img style="padding: 6px;" class="mic-icon" src="header-pics/mic-icon.png">
+          </div>
+          <div class="text">
+            <p>Search with your voice</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div class="icon-of-create">
+          <div>
+            <img class="create-icon" src="header-pics/create-icon.webp">
+          </div>
+          <div class="text">
+            Create
+          </div>
+        </div>
+        <div class="icon-of-notification">
+          <div>
+            <img class="notification-icon" src="header-pics/notification-icon.png">
+          </div>
+          <div class="text">
+            Notifications
+          </div>
+        </div>
+        <div class="logo-of-account">
+          <img class="account-logo" src="header-pics/account-logo.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="part">
+        <div class="buttons-of-icons-jinjal">
+          <div>
+            <img class="jinjal-icons" src="sidebar-pics/home-icon.png">
+          </div>
+          <div style="font-weight: 500;" class="icon-names">Home</div>
+        </div>
+        <div class="buttons-of-icons-jinjal">
+          <div>
+            <img class="jinjal-icons" src="sidebar-pics/shorts-logo.png">
+          </div>
+          <div style="font-weight: 500;" class="icon-names">Shorts</div>
+        </div>
+        <div class="buttons-of-icons-jinjal">
+          <div>
+            <img class="jinjal-icons" src="sidebar-pics/youtube_subscription_icon.png">
+          </div>
+          <div style="font-weight: 500;" class="icon-names">Subscription</div>
+        </div>
+      </div>
+      <div class="part">
+        <div class="buttons-of-icons-jinjal2">
+          <div class="icon-names">You</div>
+          <div>
+            <img class="pic" src="sidebar-pics/arrow-icon.png">
+          </div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/history-icon.png">
+          </div>
+          <div style="font-weight: 500;" class="icon-names">History</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/playlist-icon.png">
+          </div>
+          <div>Playlists</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/watch-later-icon.png">
+          </div>
+          <div>Watch later</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/like-icon.png">
+          </div>
+          <div>Liked videos</div>
+        </div>
+        <div class="buttons-of-icons-jinjal">
+          <div>
+            <img class="jinjal-icons" src="sidebar-pics/download-icon.png">
+          </div>
+          <div style="font-weight: 500;" class="icon-names">Downloads</div>
+        </div>
+      </div>
+      <div style="padding-top: 12px;" class="part">
+        <div class="buttons-of-icon" style="margin-left: 14px; margin-bottom: 8px; 
+                    margin-top: 5px;">
+          <div style="font-size: medium; font-weight: 700;
+          font-family: Roboto, Arial;">
+            Explore
+          </div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img style="width: 20px;" class="icons" src="sidebar-pics/trending-icon.png">
+          </div>
+          <div style="font-weight: 500;" class="icon-names">Trending</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/music-icon.png">
+          </div>
+          <div>Music</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/gaming-icon.png">
+          </div>
+          <div>Gaming</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/news-icon.png">
+          </div>
+          <div>News</div>
+        </div>
+        <div class="buttons-of-icons">
+          <div>
+            <img class="icons" src="sidebar-pics/sports-icon.png">
+          </div>
+          <div>Sports</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=13315s">
+            <img class="thumbnail" src="thumbnails/thumbnail1.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@SuperSimpleDev">
+              <img class="logo" src="pics/logo1.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=13315s">
+                <p class="video-name">HTML & CSS Full Course - Beginner to Pro</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <p class="channel-name">SuperSimpleDev</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">10M views &middot 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=RV4dI3SYUXQ">
+            <img class="thumbnail" src="thumbnails/thumbnail2.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@thisisanomia">
+              <img class="logo" src="pics/logo2.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=RV4dI3SYUXQ">
+                <p class="video-name">rihana - diamonds &#40slowed + lyrics&#41</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@thisisanomia"> 
+                <p class="channel-name">Anomia</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">95K views &middot 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=UfNTTjsBcMw">
+            <img class="thumbnail" src="thumbnails/thumbnail3.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@MonsterUP1/videos">
+              <img class="logo" src="pics/logo3.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=UfNTTjsBcMw">
+                <p class="video-name">skibidi toilet zombie universe - season 09 &#40all episodes&#41</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@MonsterUP1/videos">
+                <p class="channel-name">MonsterUp</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">1.8M views &middot 1 day ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=0qRsIjNaXFk">
+            <img class="thumbnail" src="thumbnails/thumbnail4.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@warcraft3tutoriales637">
+              <img class="logo" src="pics/logo4.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=0qRsIjNaXFk">
+                <p class="video-name">2 undead vs 2 humans vs 2 orcs vs 2 night elves Warcraft 3</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@warcraft3tutoriales637">
+                <p class="channel-name">Warcraft 3 Tutorials</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">23K views &middot 6 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=vJpgbkneF_8">
+            <img class="thumbnail" src="thumbnails/thumbnail5.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@Moom-Batti">
+              <img class="logo" src="pics/logo5.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=vJpgbkneF_8"> 
+                <p class="video-name">"2022 WAS A MEME" &Vert Meme Rewind 2022</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@Moom-Batti">
+                <p class="channel-name">Moom Batti</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">202K views &middot 1 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=c3vQihgEpjc">
+            <img class="thumbnail" src="thumbnails/thumbnail6.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@KickNetz">
+              <img class="logo" src="pics/logo6.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=c3vQihgEpjc">
+                <p class="video-name">What Happened To The Last 10 Real Madrid Wonderkids?</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@KickNetz">
+                <p class="channel-name">KickNets</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">99K views &middot 13 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=Zv2yvFnBYcQ">
+            <img class="thumbnail" src="thumbnails/thumbnail7.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@sahilandsarra">
+              <img class="logo" src="pics/logo7.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=Zv2yvFnBYcQ">
+                <p class="video-name">Top 10 System Design problems you must know</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@sahilandsarra">
+                <p class="channel-name">Sahil & Sarra</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">601 views &middot 5 minutes ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=uhWzVdGmX2w">
+            <img class="thumbnail" src="thumbnails/thumbnail8.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@escaping.ordinary">
+              <img class="logo" src="pics/logo8.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=uhWzVdGmX2w">
+                <p class="video-name">The Laws of Human Nature by Robert Greene &#40Detailed Summary&#41</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@escaping.ordinary">
+                <p class="channel-name">Escaping Ordinary &#40B.C Marx&#41</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">6.4M views &middot 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=T0rPUDp9tD0">
+            <img class="thumbnail" src="thumbnails/thumbnail9.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@ZemTV.Official">
+              <img class="logo" src="pics/logo9.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=T0rPUDp9tD0">
+                <p class="video-name">Zodiac: The Most Wanted Serial Killer of 20th Century</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@ZemTV.Official">
+                <p class="channel-name">Zem TV</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">1.2M views &middot 1 month ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=_oFC4Bkvz4A">
+            <img class="thumbnail" src="thumbnails/thumbnail10.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@thogden">
+              <img class="logo" src="pics/logo10.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=_oFC4Bkvz4A">
+                <p class="video-name">MADRID SSCORE 88th & 91st MIN GOALS to KNOCK BAYERN OUT</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@thogden">
+                <p class="channel-name">Thogdan</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">838K views &middot 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=yndn8iUsYLE">
+            <img class="thumbnail" src="thumbnails/thumbnail11.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@abdulrahmanmossadspecial6565">
+              <img class="logo" src="pics/logo11.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+             <a href="https://www.youtube.com/watch?v=yndn8iUsYLE">
+              <p class="video-name">
+                ساعة كاملة🕛🎧 تلاوة القران بصوت عبدالرحمن مسعد للدراسة والتركيز 📚 راحة نفسية😌 Abdulrhman M</p>
+             </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@abdulrahmanmossadspecial6565">
+                <p class="channel-name">Abdulrahman Mossad Special</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">4.6M views &middot 9 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="up">
+          <a href="https://www.youtube.com/watch?v=4P0mtHZ_usU&t=90s">
+            <img class="thumbnail" src="thumbnails/thumbnail12.webp">
+          </a>
+        </div>
+        <div class="down">
+          <div class="left">
+            <a href="https://www.youtube.com/@realmadrid/videos">
+              <img class="logo" src="pics/logo12.jpg">
+            </a>
+          </div>
+          <div class="right">
+            <div>
+              <a href="https://www.youtube.com/watch?v=4P0mtHZ_usU&t=90s">
+                <p class="video-name">HILARIOUS Clásico games with Valverde & Brahim! | Real Madrid</p>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@realmadrid/videos">
+                <p class="channel-name">Real Madrid</p>
+              </a>
+            </div>
+            <div>
+              <p class="video-about">473K views &middot 1 month ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
